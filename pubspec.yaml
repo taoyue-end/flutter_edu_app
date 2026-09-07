@@ -1,0 +1,28 @@
+name: taoyue_edu
+description: 桃悦智科教育平台 Flutter 版
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 状态管理
+  provider: ^6.1.2
+  # 网络请求
+  dio: ^5.7.0
+  # 本地键值存储
+  shared_preferences: ^2.3.2
+  # 图片加载缓存
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
