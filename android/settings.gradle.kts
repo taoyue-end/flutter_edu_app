@@ -11,6 +11,10 @@ pluginManagement {
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
     repositories {
+        // 国内镜像优先（阿里云），失败自动回落官方源
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/central")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
         google()
         mavenCentral()
         gradlePluginPortal()
