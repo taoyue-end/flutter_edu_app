@@ -1,4 +1,4 @@
-package com.taoyue.taoyue_edu
+package com.taoyue.edu
 
 import io.flutter.embedding.android.FlutterActivity
 
